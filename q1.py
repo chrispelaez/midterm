@@ -4,5 +4,11 @@
 #   Example 3: if your balance is 25, then your program should return 10. 
 #   Example 4: if your balance is 8, then your program should return 8. 
 
-def computeMinimumPayment( balance ):
+def computeMinimumPayment( balance ):    
+    if balance <= 10:
+        return(balance)
+    if balance < 477:
+        return(10)
+    else:
+        return(balance * 0.021)
     #TODO write code inside this function that achieves the functionality described above
