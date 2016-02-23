@@ -6,7 +6,7 @@
 
 def computeMinimumPayment( balance ):    
     if balance <= 10:
-        return(balance)
+        return(balance )
     if balance < 477:
         return(10)
     else:
